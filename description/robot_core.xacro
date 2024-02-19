@@ -83,7 +83,7 @@
     </link>
 
     <gazebo reference="left_wheel">
-        <material>Gazebo/Red</material>
+        <material>Gazebo/Blue</material>
     </gazebo>
 
     <!-- RIGHT WHEEL LINK -->
@@ -113,7 +113,7 @@
     </link>
 
     <gazebo reference="right_wheel">
-        <material>Gazebo/Red</material>
+        <material>Gazebo/Blue</material>
     </gazebo>
 
     <!-- CASTER WHEEL LINK -->
