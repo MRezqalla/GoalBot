@@ -1,0 +1,76 @@
+[0.062s] Invoking command in '/robot_ws/src/goal_bot/build/goal_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/robot_ws/install/serial_motor_demo:/robot_ws/install/create3_teleop:/robot_ws/install/create3_examples_py:/opt/ros/humble /usr/bin/cmake /robot_ws/src/goal_bot -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/robot_ws/src/goal_bot/install/goal_bot
+[0.149s] -- The C compiler identification is GNU 11.4.0
+[0.221s] -- The CXX compiler identification is GNU 11.4.0
+[0.233s] -- Detecting C compiler ABI info
+[0.318s] -- Detecting C compiler ABI info - done
+[0.330s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.330s] -- Detecting C compile features
+[0.331s] -- Detecting C compile features - done
+[0.335s] -- Detecting CXX compiler ABI info
+[0.440s] -- Detecting CXX compiler ABI info - done
+[0.449s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.450s] -- Detecting CXX compile features
+[0.450s] -- Detecting CXX compile features - done
+[0.455s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.640s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.735s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.788s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.923s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.939s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.939s] -- Configured cppcheck include dirs: 
+[0.939s] -- Configured cppcheck exclude dirs and/or files: 
+[0.947s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.947s] -- Configured cpplint exclude dirs and/or files: 
+[0.948s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.951s] -- Added test 'lint_cmake' to check CMake code style
+[0.952s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.960s] -- Added test 'uncrustify' to check C / C++ code style
+[0.960s] -- Configured uncrustify additional arguments: 
+[0.962s] -- Added test 'xmllint' to check XML markup files
+[0.964s] -- Configuring done
+[0.967s] -- Generating done
+[0.968s] -- Build files have been written to: /robot_ws/src/goal_bot/build/goal_bot
+[0.974s] Invoked command in '/robot_ws/src/goal_bot/build/goal_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/robot_ws/install/serial_motor_demo:/robot_ws/install/create3_teleop:/robot_ws/install/create3_examples_py:/opt/ros/humble /usr/bin/cmake /robot_ws/src/goal_bot -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/robot_ws/src/goal_bot/install/goal_bot
+[0.976s] Invoking command in '/robot_ws/src/goal_bot/build/goal_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/robot_ws/install/serial_motor_demo:/robot_ws/install/create3_teleop:/robot_ws/install/create3_examples_py:/opt/ros/humble /usr/bin/cmake --build /robot_ws/src/goal_bot/build/goal_bot -- -j4 -l4
+[1.022s] Invoked command in '/robot_ws/src/goal_bot/build/goal_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/robot_ws/install/serial_motor_demo:/robot_ws/install/create3_teleop:/robot_ws/install/create3_examples_py:/opt/ros/humble /usr/bin/cmake --build /robot_ws/src/goal_bot/build/goal_bot -- -j4 -l4
+[1.059s] Invoking command in '/robot_ws/src/goal_bot/build/goal_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/robot_ws/install/serial_motor_demo:/robot_ws/install/create3_teleop:/robot_ws/install/create3_examples_py:/opt/ros/humble /usr/bin/cmake --install /robot_ws/src/goal_bot/build/goal_bot
+[1.068s] -- Install configuration: ""
+[1.069s] -- Execute custom install script
+[1.070s] -- Symlinking: /robot_ws/src/goal_bot/install/goal_bot/share/goal_bot/config/drive_bot.rviz
+[1.080s] -- Symlinking: /robot_ws/src/goal_bot/install/goal_bot/share/goal_bot/config/empty.yaml
+[1.090s] -- Symlinking: /robot_ws/src/goal_bot/install/goal_bot/share/goal_bot/config/gazebo_params.yaml
+[1.101s] -- Symlinking: /robot_ws/src/goal_bot/install/goal_bot/share/goal_bot/config/my_controllers.yaml
+[1.111s] -- Symlinking: /robot_ws/src/goal_bot/install/goal_bot/share/goal_bot/config/rplidar_node.yaml
+[1.121s] -- Symlinking: /robot_ws/src/goal_bot/install/goal_bot/share/goal_bot/config/view_bot.rviz
+[1.137s] -- Symlinking: /robot_ws/src/goal_bot/install/goal_bot/share/goal_bot/description/camera.xacro
+[1.147s] -- Symlinking: /robot_ws/src/goal_bot/install/goal_bot/share/goal_bot/description/gazebo_control.xacro
+[1.157s] -- Symlinking: /robot_ws/src/goal_bot/install/goal_bot/share/goal_bot/description/inertial_macros.xacro
+[1.168s] -- Symlinking: /robot_ws/src/goal_bot/install/goal_bot/share/goal_bot/description/lidar.xacro
+[1.178s] -- Symlinking: /robot_ws/src/goal_bot/install/goal_bot/share/goal_bot/description/robot.urdf.xacro
+[1.189s] -- Symlinking: /robot_ws/src/goal_bot/install/goal_bot/share/goal_bot/description/robot_core.xacro
+[1.199s] -- Symlinking: /robot_ws/src/goal_bot/install/goal_bot/share/goal_bot/description/ros2_control.xacro
+[1.210s] -- Symlinking: /robot_ws/src/goal_bot/install/goal_bot/share/goal_bot/launch/camera_launch.py
+[1.221s] -- Symlinking: /robot_ws/src/goal_bot/install/goal_bot/share/goal_bot/launch/launch_robot.launch.py
+[1.236s] -- Symlinking: /robot_ws/src/goal_bot/install/goal_bot/share/goal_bot/launch/launch_sim.launch.py
+[1.246s] -- Symlinking: /robot_ws/src/goal_bot/install/goal_bot/share/goal_bot/launch/rplidar.launch.py
+[1.256s] -- Symlinking: /robot_ws/src/goal_bot/install/goal_bot/share/goal_bot/launch/rsp.launch.py
+[1.267s] -- Symlinking: /robot_ws/src/goal_bot/install/goal_bot/share/goal_bot/worlds/empty.world
+[1.277s] -- Symlinking: /robot_ws/src/goal_bot/install/goal_bot/share/goal_bot/worlds/obstacles
+[1.287s] -- Symlinking: /robot_ws/src/goal_bot/install/goal_bot/share/goal_bot/worlds/obstacles.world
+[1.298s] -- Symlinking: /robot_ws/src/goal_bot/install/goal_bot/share/goal_bot/worlds/sim
+[1.309s] -- Symlinking: /robot_ws/src/goal_bot/install/goal_bot/share/ament_index/resource_index/package_run_dependencies/goal_bot
+[1.320s] -- Symlinking: /robot_ws/src/goal_bot/install/goal_bot/share/ament_index/resource_index/parent_prefix_path/goal_bot
+[1.335s] -- Symlinking: /robot_ws/src/goal_bot/install/goal_bot/share/goal_bot/environment/ament_prefix_path.sh
+[1.346s] -- Symlinking: /robot_ws/src/goal_bot/install/goal_bot/share/goal_bot/environment/ament_prefix_path.dsv
+[1.357s] -- Symlinking: /robot_ws/src/goal_bot/install/goal_bot/share/goal_bot/environment/path.sh
+[1.368s] -- Symlinking: /robot_ws/src/goal_bot/install/goal_bot/share/goal_bot/environment/path.dsv
+[1.379s] -- Symlinking: /robot_ws/src/goal_bot/install/goal_bot/share/goal_bot/local_setup.bash
+[1.389s] -- Symlinking: /robot_ws/src/goal_bot/install/goal_bot/share/goal_bot/local_setup.sh
+[1.399s] -- Symlinking: /robot_ws/src/goal_bot/install/goal_bot/share/goal_bot/local_setup.zsh
+[1.410s] -- Symlinking: /robot_ws/src/goal_bot/install/goal_bot/share/goal_bot/local_setup.dsv
+[1.420s] -- Symlinking: /robot_ws/src/goal_bot/install/goal_bot/share/goal_bot/package.dsv
+[1.437s] -- Symlinking: /robot_ws/src/goal_bot/install/goal_bot/share/ament_index/resource_index/packages/goal_bot
+[1.448s] -- Symlinking: /robot_ws/src/goal_bot/install/goal_bot/share/goal_bot/cmake/goal_botConfig.cmake
+[1.459s] -- Symlinking: /robot_ws/src/goal_bot/install/goal_bot/share/goal_bot/cmake/goal_botConfig-version.cmake
+[1.469s] -- Symlinking: /robot_ws/src/goal_bot/install/goal_bot/share/goal_bot/package.xml
+[1.482s] Invoked command in '/robot_ws/src/goal_bot/build/goal_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/robot_ws/install/serial_motor_demo:/robot_ws/install/create3_teleop:/robot_ws/install/create3_examples_py:/opt/ros/humble /usr/bin/cmake --install /robot_ws/src/goal_bot/build/goal_bot

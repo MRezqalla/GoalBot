@@ -1,0 +1,100 @@
+[0.000000] (-) TimerEvent: {}
+[0.000748] (goal_bot) JobQueued: {'identifier': 'goal_bot', 'dependencies': OrderedDict()}
+[0.000953] (goal_bot) JobStarted: {'identifier': 'goal_bot'}
+[0.061793] (goal_bot) JobProgress: {'identifier': 'goal_bot', 'progress': 'cmake'}
+[0.062043] (goal_bot) Command: {'cmd': ['/usr/bin/cmake', '/robot_ws/src/goal_bot', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/robot_ws/src/goal_bot/install/goal_bot'], 'cwd': '/robot_ws/src/goal_bot/build/goal_bot', 'env': OrderedDict([('HOSTNAME', 'applepie'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/robot_ws/install/serial_motor_demo_msgs/lib:/robot_ws/install/diffdrive_arduino/lib:/robot_ws/install/serial/lib:/robot_ws/install/create3_examples_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ros'), ('OLDPWD', '/robot_ws/src/goal_bot/config'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/robot_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('AMENT_PREFIX_PATH', '/robot_ws/install/serial_motor_demo:/robot_ws/install/serial_motor_demo_msgs:/robot_ws/install/diffdrive_arduino:/robot_ws/install/serial:/robot_ws/install/goal_bot:/robot_ws/install/create3_teleop:/robot_ws/install/create3_lidar_slam:/robot_ws/install/create3_examples_py:/robot_ws/install/create3_examples_msgs:/opt/ros/humble'), ('PWD', '/robot_ws/src/goal_bot/build/goal_bot'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/robot_ws/build/serial_motor_demo:/robot_ws/install/serial_motor_demo/lib/python3.10/site-packages:/robot_ws/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages:/robot_ws/build/create3_teleop:/robot_ws/install/create3_teleop/lib/python3.10/site-packages:/robot_ws/build/create3_examples_py:/robot_ws/install/create3_examples_py/lib/python3.10/site-packages:/robot_ws/install/create3_examples_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/robot_ws/install/serial_motor_demo_msgs:/robot_ws/install/diffdrive_arduino:/robot_ws/install/serial:/robot_ws/install/goal_bot:/robot_ws/install/create3_lidar_slam:/robot_ws/install/create3_examples_msgs:/robot_ws/install/serial_motor_demo:/robot_ws/install/create3_teleop:/robot_ws/install/create3_examples_py:/opt/ros/humble')]), 'shell': False}
+[0.099808] (-) TimerEvent: {}
+[0.149816] (goal_bot) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.199942] (-) TimerEvent: {}
+[0.221527] (goal_bot) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.233356] (goal_bot) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.300077] (-) TimerEvent: {}
+[0.318538] (goal_bot) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.329724] (goal_bot) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.330829] (goal_bot) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.331436] (goal_bot) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.335979] (goal_bot) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.400198] (-) TimerEvent: {}
+[0.440540] (goal_bot) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.450374] (goal_bot) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.450733] (goal_bot) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.451330] (goal_bot) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.456174] (goal_bot) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.500290] (-) TimerEvent: {}
+[0.600644] (-) TimerEvent: {}
+[0.641161] (goal_bot) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.700745] (-) TimerEvent: {}
+[0.735912] (goal_bot) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.789110] (goal_bot) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.800851] (-) TimerEvent: {}
+[0.901205] (-) TimerEvent: {}
+[0.923342] (goal_bot) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[0.939345] (goal_bot) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[0.939624] (goal_bot) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[0.939706] (goal_bot) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[0.947548] (goal_bot) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[0.947637] (goal_bot) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[0.949176] (goal_bot) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[0.951605] (goal_bot) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.953119] (goal_bot) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[0.961043] (goal_bot) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[0.961137] (goal_bot) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[0.962655] (goal_bot) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.964572] (goal_bot) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.967877] (goal_bot) StdoutLine: {'line': b'-- Generating done\n'}
+[0.968986] (goal_bot) StdoutLine: {'line': b'-- Build files have been written to: /robot_ws/src/goal_bot/build/goal_bot\n'}
+[0.975250] (goal_bot) CommandEnded: {'returncode': 0}
+[0.975858] (goal_bot) JobProgress: {'identifier': 'goal_bot', 'progress': 'build'}
+[0.976645] (goal_bot) Command: {'cmd': ['/usr/bin/cmake', '--build', '/robot_ws/src/goal_bot/build/goal_bot', '--', '-j4', '-l4'], 'cwd': '/robot_ws/src/goal_bot/build/goal_bot', 'env': OrderedDict([('HOSTNAME', 'applepie'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/robot_ws/install/serial_motor_demo_msgs/lib:/robot_ws/install/diffdrive_arduino/lib:/robot_ws/install/serial/lib:/robot_ws/install/create3_examples_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ros'), ('OLDPWD', '/robot_ws/src/goal_bot/config'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/robot_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('AMENT_PREFIX_PATH', '/robot_ws/install/serial_motor_demo:/robot_ws/install/serial_motor_demo_msgs:/robot_ws/install/diffdrive_arduino:/robot_ws/install/serial:/robot_ws/install/goal_bot:/robot_ws/install/create3_teleop:/robot_ws/install/create3_lidar_slam:/robot_ws/install/create3_examples_py:/robot_ws/install/create3_examples_msgs:/opt/ros/humble'), ('PWD', '/robot_ws/src/goal_bot/build/goal_bot'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/robot_ws/build/serial_motor_demo:/robot_ws/install/serial_motor_demo/lib/python3.10/site-packages:/robot_ws/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages:/robot_ws/build/create3_teleop:/robot_ws/install/create3_teleop/lib/python3.10/site-packages:/robot_ws/build/create3_examples_py:/robot_ws/install/create3_examples_py/lib/python3.10/site-packages:/robot_ws/install/create3_examples_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/robot_ws/install/serial_motor_demo_msgs:/robot_ws/install/diffdrive_arduino:/robot_ws/install/serial:/robot_ws/install/goal_bot:/robot_ws/install/create3_lidar_slam:/robot_ws/install/create3_examples_msgs:/robot_ws/install/serial_motor_demo:/robot_ws/install/create3_teleop:/robot_ws/install/create3_examples_py:/opt/ros/humble')]), 'shell': False}
+[1.001320] (-) TimerEvent: {}
+[1.023136] (goal_bot) CommandEnded: {'returncode': 0}
+[1.048875] (goal_bot) JobProgress: {'identifier': 'goal_bot', 'progress': 'install'}
+[1.059431] (goal_bot) Command: {'cmd': ['/usr/bin/cmake', '--install', '/robot_ws/src/goal_bot/build/goal_bot'], 'cwd': '/robot_ws/src/goal_bot/build/goal_bot', 'env': OrderedDict([('HOSTNAME', 'applepie'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/robot_ws/install/serial_motor_demo_msgs/lib:/robot_ws/install/diffdrive_arduino/lib:/robot_ws/install/serial/lib:/robot_ws/install/create3_examples_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ros'), ('OLDPWD', '/robot_ws/src/goal_bot/config'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/robot_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('AMENT_PREFIX_PATH', '/robot_ws/install/serial_motor_demo:/robot_ws/install/serial_motor_demo_msgs:/robot_ws/install/diffdrive_arduino:/robot_ws/install/serial:/robot_ws/install/goal_bot:/robot_ws/install/create3_teleop:/robot_ws/install/create3_lidar_slam:/robot_ws/install/create3_examples_py:/robot_ws/install/create3_examples_msgs:/opt/ros/humble'), ('PWD', '/robot_ws/src/goal_bot/build/goal_bot'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/robot_ws/build/serial_motor_demo:/robot_ws/install/serial_motor_demo/lib/python3.10/site-packages:/robot_ws/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages:/robot_ws/build/create3_teleop:/robot_ws/install/create3_teleop/lib/python3.10/site-packages:/robot_ws/build/create3_examples_py:/robot_ws/install/create3_examples_py/lib/python3.10/site-packages:/robot_ws/install/create3_examples_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/robot_ws/install/serial_motor_demo_msgs:/robot_ws/install/diffdrive_arduino:/robot_ws/install/serial:/robot_ws/install/goal_bot:/robot_ws/install/create3_lidar_slam:/robot_ws/install/create3_examples_msgs:/robot_ws/install/serial_motor_demo:/robot_ws/install/create3_teleop:/robot_ws/install/create3_examples_py:/opt/ros/humble')]), 'shell': False}
+[1.069290] (goal_bot) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.069882] (goal_bot) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[1.070459] (goal_bot) StdoutLine: {'line': b'-- Symlinking: /robot_ws/src/goal_bot/install/goal_bot/share/goal_bot/config/drive_bot.rviz\n'}
+[1.080797] (goal_bot) StdoutLine: {'line': b'-- Symlinking: /robot_ws/src/goal_bot/install/goal_bot/share/goal_bot/config/empty.yaml\n'}
+[1.091066] (goal_bot) StdoutLine: {'line': b'-- Symlinking: /robot_ws/src/goal_bot/install/goal_bot/share/goal_bot/config/gazebo_params.yaml\n'}
+[1.101451] (goal_bot) StdoutLine: {'line': b'-- Symlinking: /robot_ws/src/goal_bot/install/goal_bot/share/goal_bot/config/my_controllers.yaml\n'}
+[1.101649] (-) TimerEvent: {}
+[1.111911] (goal_bot) StdoutLine: {'line': b'-- Symlinking: /robot_ws/src/goal_bot/install/goal_bot/share/goal_bot/config/rplidar_node.yaml\n'}
+[1.122228] (goal_bot) StdoutLine: {'line': b'-- Symlinking: /robot_ws/src/goal_bot/install/goal_bot/share/goal_bot/config/view_bot.rviz\n'}
+[1.137391] (goal_bot) StdoutLine: {'line': b'-- Symlinking: /robot_ws/src/goal_bot/install/goal_bot/share/goal_bot/description/camera.xacro\n'}
+[1.147770] (goal_bot) StdoutLine: {'line': b'-- Symlinking: /robot_ws/src/goal_bot/install/goal_bot/share/goal_bot/description/gazebo_control.xacro\n'}
+[1.158220] (goal_bot) StdoutLine: {'line': b'-- Symlinking: /robot_ws/src/goal_bot/install/goal_bot/share/goal_bot/description/inertial_macros.xacro\n'}
+[1.168457] (goal_bot) StdoutLine: {'line': b'-- Symlinking: /robot_ws/src/goal_bot/install/goal_bot/share/goal_bot/description/lidar.xacro\n'}
+[1.179161] (goal_bot) StdoutLine: {'line': b'-- Symlinking: /robot_ws/src/goal_bot/install/goal_bot/share/goal_bot/description/robot.urdf.xacro\n'}
+[1.189588] (goal_bot) StdoutLine: {'line': b'-- Symlinking: /robot_ws/src/goal_bot/install/goal_bot/share/goal_bot/description/robot_core.xacro\n'}
+[1.199809] (goal_bot) StdoutLine: {'line': b'-- Symlinking: /robot_ws/src/goal_bot/install/goal_bot/share/goal_bot/description/ros2_control.xacro\n'}
+[1.201729] (-) TimerEvent: {}
+[1.210615] (goal_bot) StdoutLine: {'line': b'-- Symlinking: /robot_ws/src/goal_bot/install/goal_bot/share/goal_bot/launch/camera_launch.py\n'}
+[1.221929] (goal_bot) StdoutLine: {'line': b'-- Symlinking: /robot_ws/src/goal_bot/install/goal_bot/share/goal_bot/launch/launch_robot.launch.py\n'}
+[1.236276] (goal_bot) StdoutLine: {'line': b'-- Symlinking: /robot_ws/src/goal_bot/install/goal_bot/share/goal_bot/launch/launch_sim.launch.py\n'}
+[1.246531] (goal_bot) StdoutLine: {'line': b'-- Symlinking: /robot_ws/src/goal_bot/install/goal_bot/share/goal_bot/launch/rplidar.launch.py\n'}
+[1.256904] (goal_bot) StdoutLine: {'line': b'-- Symlinking: /robot_ws/src/goal_bot/install/goal_bot/share/goal_bot/launch/rsp.launch.py\n'}
+[1.267471] (goal_bot) StdoutLine: {'line': b'-- Symlinking: /robot_ws/src/goal_bot/install/goal_bot/share/goal_bot/worlds/empty.world\n'}
+[1.277768] (goal_bot) StdoutLine: {'line': b'-- Symlinking: /robot_ws/src/goal_bot/install/goal_bot/share/goal_bot/worlds/obstacles\n'}
+[1.288111] (goal_bot) StdoutLine: {'line': b'-- Symlinking: /robot_ws/src/goal_bot/install/goal_bot/share/goal_bot/worlds/obstacles.world\n'}
+[1.298574] (goal_bot) StdoutLine: {'line': b'-- Symlinking: /robot_ws/src/goal_bot/install/goal_bot/share/goal_bot/worlds/sim\n'}
+[1.301809] (-) TimerEvent: {}
+[1.309327] (goal_bot) StdoutLine: {'line': b'-- Symlinking: /robot_ws/src/goal_bot/install/goal_bot/share/ament_index/resource_index/package_run_dependencies/goal_bot\n'}
+[1.320580] (goal_bot) StdoutLine: {'line': b'-- Symlinking: /robot_ws/src/goal_bot/install/goal_bot/share/ament_index/resource_index/parent_prefix_path/goal_bot\n'}
+[1.336177] (goal_bot) StdoutLine: {'line': b'-- Symlinking: /robot_ws/src/goal_bot/install/goal_bot/share/goal_bot/environment/ament_prefix_path.sh\n'}
+[1.346865] (goal_bot) StdoutLine: {'line': b'-- Symlinking: /robot_ws/src/goal_bot/install/goal_bot/share/goal_bot/environment/ament_prefix_path.dsv\n'}
+[1.357440] (goal_bot) StdoutLine: {'line': b'-- Symlinking: /robot_ws/src/goal_bot/install/goal_bot/share/goal_bot/environment/path.sh\n'}
+[1.368881] (goal_bot) StdoutLine: {'line': b'-- Symlinking: /robot_ws/src/goal_bot/install/goal_bot/share/goal_bot/environment/path.dsv\n'}
+[1.379422] (goal_bot) StdoutLine: {'line': b'-- Symlinking: /robot_ws/src/goal_bot/install/goal_bot/share/goal_bot/local_setup.bash\n'}
+[1.389856] (goal_bot) StdoutLine: {'line': b'-- Symlinking: /robot_ws/src/goal_bot/install/goal_bot/share/goal_bot/local_setup.sh\n'}
+[1.400188] (goal_bot) StdoutLine: {'line': b'-- Symlinking: /robot_ws/src/goal_bot/install/goal_bot/share/goal_bot/local_setup.zsh\n'}
+[1.401884] (-) TimerEvent: {}
+[1.410842] (goal_bot) StdoutLine: {'line': b'-- Symlinking: /robot_ws/src/goal_bot/install/goal_bot/share/goal_bot/local_setup.dsv\n'}
+[1.421245] (goal_bot) StdoutLine: {'line': b'-- Symlinking: /robot_ws/src/goal_bot/install/goal_bot/share/goal_bot/package.dsv\n'}
+[1.438260] (goal_bot) StdoutLine: {'line': b'-- Symlinking: /robot_ws/src/goal_bot/install/goal_bot/share/ament_index/resource_index/packages/goal_bot\n'}
+[1.448808] (goal_bot) StdoutLine: {'line': b'-- Symlinking: /robot_ws/src/goal_bot/install/goal_bot/share/goal_bot/cmake/goal_botConfig.cmake\n'}
+[1.459688] (goal_bot) StdoutLine: {'line': b'-- Symlinking: /robot_ws/src/goal_bot/install/goal_bot/share/goal_bot/cmake/goal_botConfig-version.cmake\n'}
+[1.470169] (goal_bot) StdoutLine: {'line': b'-- Symlinking: /robot_ws/src/goal_bot/install/goal_bot/share/goal_bot/package.xml\n'}
+[1.482200] (goal_bot) CommandEnded: {'returncode': 0}
+[1.501983] (-) TimerEvent: {}
+[1.602276] (goal_bot) JobEnded: {'identifier': 'goal_bot', 'rc': 0}
+[1.603350] (-) TimerEvent: {}
+[1.603486] (-) EventReactorShutdown: {}
