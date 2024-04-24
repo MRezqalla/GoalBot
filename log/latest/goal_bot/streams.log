@@ -1,0 +1,43 @@
+[0.065s] Invoking command in '/robot_ws/src/goal_bot/build/goal_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/robot_ws/install/serial_motor_demo:/robot_ws/install/create3_teleop:/robot_ws/install/create3_examples_py:/opt/ros/humble /usr/bin/cmake --build /robot_ws/src/goal_bot/build/goal_bot -- -j4 -l4
+[0.118s] Invoked command in '/robot_ws/src/goal_bot/build/goal_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/robot_ws/install/serial_motor_demo:/robot_ws/install/create3_teleop:/robot_ws/install/create3_examples_py:/opt/ros/humble /usr/bin/cmake --build /robot_ws/src/goal_bot/build/goal_bot -- -j4 -l4
+[0.158s] Invoking command in '/robot_ws/src/goal_bot/build/goal_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/robot_ws/install/serial_motor_demo:/robot_ws/install/create3_teleop:/robot_ws/install/create3_examples_py:/opt/ros/humble /usr/bin/cmake --install /robot_ws/src/goal_bot/build/goal_bot
+[0.168s] -- Install configuration: ""
+[0.168s] -- Execute custom install script
+[0.168s] -- Up-to-date symlink: /robot_ws/src/goal_bot/install/goal_bot/share/goal_bot/config/drive_bot.rviz
+[0.168s] -- Up-to-date symlink: /robot_ws/src/goal_bot/install/goal_bot/share/goal_bot/config/empty.yaml
+[0.169s] -- Up-to-date symlink: /robot_ws/src/goal_bot/install/goal_bot/share/goal_bot/config/gazebo_params.yaml
+[0.169s] -- Up-to-date symlink: /robot_ws/src/goal_bot/install/goal_bot/share/goal_bot/config/my_controllers.yaml
+[0.169s] -- Up-to-date symlink: /robot_ws/src/goal_bot/install/goal_bot/share/goal_bot/config/rplidar_node.yaml
+[0.169s] -- Up-to-date symlink: /robot_ws/src/goal_bot/install/goal_bot/share/goal_bot/config/view_bot.rviz
+[0.169s] -- Up-to-date symlink: /robot_ws/src/goal_bot/install/goal_bot/share/goal_bot/description/camera.xacro
+[0.169s] -- Up-to-date symlink: /robot_ws/src/goal_bot/install/goal_bot/share/goal_bot/description/gazebo_control.xacro
+[0.169s] -- Up-to-date symlink: /robot_ws/src/goal_bot/install/goal_bot/share/goal_bot/description/inertial_macros.xacro
+[0.169s] -- Up-to-date symlink: /robot_ws/src/goal_bot/install/goal_bot/share/goal_bot/description/lidar.xacro
+[0.170s] -- Up-to-date symlink: /robot_ws/src/goal_bot/install/goal_bot/share/goal_bot/description/robot.urdf.xacro
+[0.170s] -- Up-to-date symlink: /robot_ws/src/goal_bot/install/goal_bot/share/goal_bot/description/robot_core.xacro
+[0.170s] -- Up-to-date symlink: /robot_ws/src/goal_bot/install/goal_bot/share/goal_bot/description/ros2_control.xacro
+[0.170s] -- Up-to-date symlink: /robot_ws/src/goal_bot/install/goal_bot/share/goal_bot/launch/camera_launch.py
+[0.170s] -- Up-to-date symlink: /robot_ws/src/goal_bot/install/goal_bot/share/goal_bot/launch/launch_robot.launch.py
+[0.170s] -- Up-to-date symlink: /robot_ws/src/goal_bot/install/goal_bot/share/goal_bot/launch/launch_sim.launch.py
+[0.170s] -- Up-to-date symlink: /robot_ws/src/goal_bot/install/goal_bot/share/goal_bot/launch/rplidar.launch.py
+[0.170s] -- Up-to-date symlink: /robot_ws/src/goal_bot/install/goal_bot/share/goal_bot/launch/rsp.launch.py
+[0.171s] -- Up-to-date symlink: /robot_ws/src/goal_bot/install/goal_bot/share/goal_bot/worlds/empty.world
+[0.171s] -- Up-to-date symlink: /robot_ws/src/goal_bot/install/goal_bot/share/goal_bot/worlds/obstacles
+[0.171s] -- Up-to-date symlink: /robot_ws/src/goal_bot/install/goal_bot/share/goal_bot/worlds/obstacles.world
+[0.171s] -- Up-to-date symlink: /robot_ws/src/goal_bot/install/goal_bot/share/goal_bot/worlds/sim
+[0.171s] -- Up-to-date symlink: /robot_ws/src/goal_bot/install/goal_bot/share/ament_index/resource_index/package_run_dependencies/goal_bot
+[0.171s] -- Up-to-date symlink: /robot_ws/src/goal_bot/install/goal_bot/share/ament_index/resource_index/parent_prefix_path/goal_bot
+[0.171s] -- Up-to-date symlink: /robot_ws/src/goal_bot/install/goal_bot/share/goal_bot/environment/ament_prefix_path.sh
+[0.172s] -- Up-to-date symlink: /robot_ws/src/goal_bot/install/goal_bot/share/goal_bot/environment/ament_prefix_path.dsv
+[0.172s] -- Up-to-date symlink: /robot_ws/src/goal_bot/install/goal_bot/share/goal_bot/environment/path.sh
+[0.172s] -- Up-to-date symlink: /robot_ws/src/goal_bot/install/goal_bot/share/goal_bot/environment/path.dsv
+[0.172s] -- Up-to-date symlink: /robot_ws/src/goal_bot/install/goal_bot/share/goal_bot/local_setup.bash
+[0.172s] -- Up-to-date symlink: /robot_ws/src/goal_bot/install/goal_bot/share/goal_bot/local_setup.sh
+[0.172s] -- Up-to-date symlink: /robot_ws/src/goal_bot/install/goal_bot/share/goal_bot/local_setup.zsh
+[0.172s] -- Up-to-date symlink: /robot_ws/src/goal_bot/install/goal_bot/share/goal_bot/local_setup.dsv
+[0.173s] -- Symlinking: /robot_ws/src/goal_bot/install/goal_bot/share/goal_bot/package.dsv
+[0.183s] -- Up-to-date symlink: /robot_ws/src/goal_bot/install/goal_bot/share/ament_index/resource_index/packages/goal_bot
+[0.183s] -- Up-to-date symlink: /robot_ws/src/goal_bot/install/goal_bot/share/goal_bot/cmake/goal_botConfig.cmake
+[0.183s] -- Up-to-date symlink: /robot_ws/src/goal_bot/install/goal_bot/share/goal_bot/cmake/goal_botConfig-version.cmake
+[0.183s] -- Up-to-date symlink: /robot_ws/src/goal_bot/install/goal_bot/share/goal_bot/package.xml
+[0.186s] Invoked command in '/robot_ws/src/goal_bot/build/goal_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/robot_ws/install/serial_motor_demo:/robot_ws/install/create3_teleop:/robot_ws/install/create3_examples_py:/opt/ros/humble /usr/bin/cmake --install /robot_ws/src/goal_bot/build/goal_bot

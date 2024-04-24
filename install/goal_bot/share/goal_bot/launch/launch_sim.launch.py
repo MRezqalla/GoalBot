@@ -1,1 +1,0 @@
-/robot_ws/src/goal_bot/launch/launch_sim.launch.py
